@@ -6,7 +6,7 @@ export default function Navbar () {
         <div className="container">
             <div className="navbar-brand">
             <NavLink to="/">
-                <img className="img-fluid w-5" src="https://fakestoreapi.com/icons/logo.png" alt="logo" />
+                <img className="img-fluid w-25 rounded" src="https://fakestoreapi.com/icons/logo.png" alt="logo" />
             </NavLink> 
             </div>
             <div className="navbar-nav">
