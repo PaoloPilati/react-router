@@ -4,11 +4,11 @@ export default function Navbar () {
     return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <div className="container">
-
-            <NavLink to="/" className="navbar-brand">
-                <img src="https://fakestoreapi.com/icons/logo.png" alt="logo" />
+            <div className="navbar-brand">
+            <NavLink to="/">
+                <img className="img-fluid w-5" src="https://fakestoreapi.com/icons/logo.png" alt="logo" />
             </NavLink> 
-
+            </div>
             <div className="navbar-nav">
                    
                 <NavLink to="/" className="nav-link">Home</NavLink>
