@@ -5,7 +5,7 @@ export default function Navbar () {
     <nav className="navbar navbar-dark bg-dark">
         <div className="container">
 
-            <div className="navba-brand">
+            <div className="navbar-brand">
                 <NavLink to="/" className="navbar-brand">
                     <img src="*"/>
                 </NavLink> 
