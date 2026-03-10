@@ -4,5 +4,5 @@ export default function Home() {
       <h1>Homepage</h1>
       <p>Benvenuto nel nostro shop</p>
     </div>
-  );
+  )
 }

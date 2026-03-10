@@ -4,5 +4,5 @@ export default function ChiSiamo() {
       <h1>Chi siamo</h1>
       <p>Informazioni sull’azienda...</p>
     </div>
-  );
+  )
 }
