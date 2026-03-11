@@ -15,7 +15,7 @@ export default function Articolo () {
   if (!product) return <p>Caricamento...</p>;
 
   return (
-    <div className="container mt-4">
+    <div className="container my-5">
       <h1 className="mb-4">Articolo: {product.title} - {id}</h1>
       <div className="card">
         <div className="row g-0 align-items-center">
