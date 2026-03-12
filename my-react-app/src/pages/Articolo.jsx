@@ -5,6 +5,7 @@ import axios from "axios";
 export default function Articolo () {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const currentId = Number(id)
 
   useEffect(() => {
     axios.get(`https://fakestoreapi.com/products/${id}`)
@@ -37,9 +38,21 @@ export default function Articolo () {
               <p className="card-text text-muted">
                 Categoria: {product.category}
               </p>
+            </div>            
+            <div className="row mt-3">
+              <div className="col d-flex justify-content-center gap-3">
+
+                <button className="btn btn-secondary">
+                  Precedente
+                </button>
+
+                <button className="btn btn-secondary">
+                  Successivo
+                </button>
+              </div>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> 
       </div>
     </div>
   )
